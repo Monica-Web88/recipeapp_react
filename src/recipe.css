@@ -28,10 +28,18 @@
   justify-content: space-around;
   background: white;
   align-items: center;
-  min-width: 30%;
+  min-width: 25%;
   padding: 20px;
-  max-width: 30%;
+  max-width: 25%;
 }
+
+/*
+.recipes:hover
+{
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+}*/
+
 .image {
   border-radius: 50%;
   width: 200px;
@@ -42,9 +50,12 @@
   list-style-type: square;
 }
 
-.FoodList {
+.foodList {
+  padding-left: 20px;
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .PopUp {

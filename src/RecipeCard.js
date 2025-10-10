@@ -26,7 +26,7 @@ export default function RecipeCard() {
 
     var recipeInst = "";
 
-    if (recipe != undefined && recipe != "") {
+    if (recipe !== undefined && recipe !== "") {
       var recipeArray = recipe.split(",");
       recipeInst = (
         <Fragment>
@@ -49,7 +49,7 @@ export default function RecipeCard() {
     console.log("update div : ", jsonData.recipes);
     const recipes = jsonData.recipes;
     return (
-      <div className="FoodList">
+      <div className="foodList">
         <br />
 
         {

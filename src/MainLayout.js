@@ -19,14 +19,17 @@ const MainLayout = () => {
     }
   };
 
+  generateJSON();
   return (
     <div className="alignClass">
-      <div className="mainDiv"> Monica's Recipe App </div>
-      <button id="generateBtn" type="submit" onClick={generateJSON}>
-        GET Recipes
-      </button>
+      <div className="mainDiv"><h1> Monica's Recipe App </h1> </div>
+      {/*
+        <button id="generateBtn" type="submit" onClick={generateJSON}>
+          GET Recipes
+        </button> 
+      */}
 
-      <div>
+      <div className="recipeDiv">
         <Context.Provider value={jsonData}>
           <Container>
             <Row style={{ justifyContent: "center" }}>
