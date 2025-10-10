@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# View the live app : click below link
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://monica-web88.github.io/recipeapp_react/
 
 ## Available Scripts
 
