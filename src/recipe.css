@@ -1,0 +1,70 @@
+.recipeTile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.recipeTile__img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.recipeTile__name {
+  max-width: 50px;
+  text-align: center;
+  margin: 12px 0px;
+}
+
+.recipes {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 30%;
+  padding: 20px;
+  max-width: 30%;
+}
+.image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.list {
+  list-style-type: square;
+}
+
+.FoodList {
+  display: flex;
+  flex-direction: row;
+}
+
+.PopUp {
+  position: fixed;
+
+  left: 20%;
+  top: 20%;
+
+  width: 60%;
+  padding: 30px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: -2px 1.5px 1.5px grey;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #011627;
+}
