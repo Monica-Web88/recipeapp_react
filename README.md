@@ -3,6 +3,19 @@
 https://monica-web88.github.io/recipeapp_react/
 
 
+The Recipe Finder App is a full-stack web application that allows users to:
+
+- Search for recipes from an external API
+
+- View detailed recipe information
+
+- Create an account and log in securely
+
+- Save favorite recipes to their profile
+
+- Access favorites across devices
+
+
 ## Available Scripts
 
 In the project directory, you can run:
