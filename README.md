@@ -16,7 +16,7 @@ The Recipe Finder App is a full-stack web application that allows users to:
 - Access favorites across devices
 
 
-### Tech Stack
+## Tech Stack
 
 Frontend	 - React, TypeScript, React Router, CSS Modules
 
