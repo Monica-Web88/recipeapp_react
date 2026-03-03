@@ -16,15 +16,22 @@ The Recipe Finder App is a full-stack web application that allows users to:
 - Access favorites across devices
 
 
-**Tech Stack**
+##Tech Stack
 
 Frontend	 - React, TypeScript, React Router, CSS Modules
+
 Backend - 	Node.js, Express
+
 Database -	MongoDB Atlas / PostgreSQL
+
 Authentication	- JWT (JSON Web Token)
+
 API -	External Recipe API (Spoonacular / Edamam)
+
 Deployment	 Frontend: GitHub Pages / Vercel, Backend: Render / AWS
+
 CI/CD - 	GitHub Actions (build, test, deploy)
+
 Testing	- React Testing Library, Jest, Supertest
 
 
